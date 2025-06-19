@@ -1,25 +1,37 @@
-# Full Stack AI Splitwise Clone with Next JS, Convex, Tailwind, Inngest, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/Ce7O3p7-YDI
+# 🤖 AI Splitwise Clone
 
-![splitr](https://github.com/user-attachments/assets/11e138c4-efcf-4a85-8586-f2993da118d8)
+A full-stack AI-powered expense-sharing app inspired by Splitwise — now with **email notifications**, and real-time collaboration. Add expenses in plain English, automatically split bills, and notify users via email using **Resend + Inngest**.
 
-### Make sure to create a `.env` file with following variables -
+---
 
-```
-# Deployment used by `npx convex dev`
-CONVEX_DEPLOYMENT=
+## ✨ Features
 
-NEXT_PUBLIC_CONVEX_URL=
+- 🔐 **Authentication** with Clerk
+- ⚡ **Real-time backend** using Convex
+- 📩 **Automated Emails** using Resend & Inngest
+- 🧾 **Group-based expense tracking**
+- 🔍 **Smart search** by user name/email
+- 💻 **Modern UI** with Tailwind CSS & shadcn/ui
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
+---
 
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+## 🛠 Tech Stack
 
-CLERK_JWT_ISSUER_DOMAIN=
+| Tech        | Role                                  |
+|-------------|----------------------------------------|
+| **Next.js** | Fullstack React framework             |
+| **Convex**  | Database & backend functions          |
+| **Clerk**   | User authentication                   |
+| **Resend**  | Email service for sending debt summaries |
+| **Inngest** | Background jobs (send emails, etc.)   |
+| **Tailwind CSS** | Styling framework               |
 
-RESEND_API_KEY=
+---
 
-GEMINI_API_KEY=
-```
+## 📦 Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/ai-splitwise-clone.git
+cd ai-splitwise-clone
