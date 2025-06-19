@@ -33,5 +33,5 @@ A full-stack AI-powered expense-sharing app inspired by Splitwise — now with *
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/ai-splitwise-clone.git
-cd ai-splitwise-clone
+git clone https://github.com/Shwetank8/splittr.git
+cd splittr
